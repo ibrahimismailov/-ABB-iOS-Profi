@@ -112,7 +112,7 @@ let myObject = MyClass()
 myObject.doSomething()
 // In this case, the closure property is holding a weak reference to `self`,
 // which means that `myObject` will be deallocated when we are no longer
-// using it. This prevents a memory leak.
+// using it. This prevents a memory leak 
 
 
 
